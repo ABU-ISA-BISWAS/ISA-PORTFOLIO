@@ -35,3 +35,13 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.second-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.half-width-padding{
+    padding-top: 30px;
+    margin-right: 120px;
+}
