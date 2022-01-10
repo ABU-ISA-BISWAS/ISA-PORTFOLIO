@@ -1,15 +1,18 @@
 body{
     font-family: 'Merriweather', serif;
-    margin: 0;
-}
+    margin: 0;}
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .name-color{
     color: tomato;
 }
-section{
+.flex-content{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -44,4 +47,34 @@ section{
 .half-width-padding{
     padding-top: 30px;
     margin-right: 120px;
+}
+.half-width-ex{
+    box-shadow: 10px 10px 40px royalblue;
+    width: 40%;
+    height: 350px;
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 5%;
+    margin right: 5%;
+  
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.border-full{
+    border-left:10px solid ;
+    border-image: linear-gradient(blue,cyan );
+    border-image-slice: 1;
+}
+.border-baby{
+    border-left: 10px solid ;
+    border-image: linear-gradient( crimson, #ec90a2 );
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
